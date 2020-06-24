@@ -1,0 +1,17 @@
+---
+#usage :  conda env create -f liftover.yaml
+name: liftover
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - conda-forge::python=3.7
+  - conda-forge::git=2.26.0
+  - conda-forge::pandas=1.0.3
+  - conda-forge::zlib=1.2.11
+  - bioconda::snakemake=5.3.0
+  - bioconda::pbgzip=2016.08.04
+  - bioconda::gatk=3.8
+  - bioconda::picard=2.18.7
+
